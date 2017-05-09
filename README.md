@@ -1,2 +1,2 @@
 # mastering-git
-Practice using Git with sportacause.
+Practice using Git: sportacause and marvokdolor.
