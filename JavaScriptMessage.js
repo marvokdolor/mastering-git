@@ -11,3 +11,8 @@ I updated it this evening so it should have all the relevant info.
 Cheers,
 Marvo
 */
+
+// Cool!
+
+/* BTW, Which is your text editor of choice? 
+I use Sublime Text 3.*/
