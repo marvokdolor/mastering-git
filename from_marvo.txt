@@ -1,0 +1,11 @@
+Hey Cris!
+
+This is so cool B-)
+I use Atom as my primary text editor. It’s almost identical to Sublime from what I can tell, but they don’t keep asking me to upgrade :-)
+ 
+When I’m doing exercises from all those classes I listed in the blogpost, I use the Python IDLE which I believe comes with Mac or Spyder from Anaconda.
+
+I just came across this git guide: http://rogerdudler.github.io/git-guide/
+We’ll see how helpful it is.
+
+Over and out.
