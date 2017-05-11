@@ -7,7 +7,7 @@ Create a folder in your desired location
 
 	mkdir my_git_folder
 
-Go to that folder using Chnage Directory command
+Go to that folder using Change Directory command
 
 	cd my-git-folder
 
@@ -44,6 +44,10 @@ If you have many files and want to add all the files that are staged,
 then you can use:
 
 	git add .
+
+If you added AND deleted multiple files you can use:
+
+	git --add	
 
 
 */
@@ -96,6 +100,10 @@ To add bring the folder up to date on Github, use push:
 
 	git push origin name-of-your-branch
 
+To see all your branches:
+	
+	git branch	
+
 */
 
 /* ===== PULLING =====
@@ -112,3 +120,26 @@ To pull:
 
 
 */
+
+/* ===== CLONING ===== 
+
+This may be seldom used but to clone a repo and all its branches use:
+
+	git clone --mirror https://github.com/the-user-name/the-repo-to-be-cloned.git .git
+
+	(notice the .git with a space after the url.git, 
+	this is an important and oft overlooked step)
+
+Once it's done, make sure you're in the folder.
+If you ls, you will likely see that it's a hidden .git 
+	
+	git config --bool core.bare false
+	git reset --hard
+
+	(use --bool to modify something between true and false,
+	in this case, it's a bare repository, and it's being made
+	a regular repo, so it can be filled.)
+	(git reset --hard will grab all the repo you cloned including
+	all the branches into you local folder)	
+
+*/	
