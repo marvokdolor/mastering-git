@@ -13,7 +13,7 @@ Go to that folder using Change Directory command
 
 Let Git know to start tracking it
 
-	git init 
+	git init
 
 
 */
@@ -28,13 +28,12 @@ Add it to the repo
 
 	git add my-file-name.txt
 
-Then commit it to the repo and accompany 
+Then commit it to the repo and accompany
 it with a clarifying message
 
 	git commit -m "type a descriptive message here"
 
-
-If you make changes to the file later you can see the 
+If you make changes to the file later you can see the
 differences by using:
 
 	git diff
@@ -47,7 +46,7 @@ then you can use:
 
 If you added AND deleted multiple files you can use:
 
-	git --add	
+	git --add
 
 
 */
@@ -62,7 +61,7 @@ Connect your local repo to the GitHub Repo
 	git remote add origin https://github.com/yourusername/my-git-folder
 
 
-Push the work from your local folder to the Github (remote) folder	
+Push the work from your local folder to the Github (remote) folder
 
 	git push origin master
 */
@@ -80,7 +79,7 @@ Clone it to a local folder:
  	git remote add upstream https://github.com/theirusername/the-forked folder.git
 
 Check to see which remote connections you have
-	
+
 		git remote -v
 
 */
@@ -101,8 +100,8 @@ To add bring the folder up to date on Github, use push:
 	git push origin name-of-your-branch
 
 To see all your branches:
-	
-	git branch	
+
+	git branch
 
 */
 
@@ -121,18 +120,18 @@ To pull:
 
 */
 
-/* ===== CLONING ===== 
+/* ===== CLONING =====
 
 This may be seldom used but to clone a repo and all its branches use:
 
 	git clone --mirror https://github.com/the-user-name/the-repo-to-be-cloned.git .git
 
-	(notice the .git with a space after the url.git, 
+	(notice the .git with a space after the url.git,
 	this is an important and oft overlooked step)
 
 Once it's done, make sure you're in the folder.
-If you ls, you will likely see that it's a hidden .git 
-	
+If you ls, you will likely see that it's a hidden .git
+
 	git config --bool core.bare false
 	git reset --hard
 
@@ -140,6 +139,6 @@ If you ls, you will likely see that it's a hidden .git
 	in this case, it's a bare repository, and it's being made
 	a regular repo, so it can be filled.)
 	(git reset --hard will grab all the repo you cloned including
-	all the branches into you local folder)	
+	all the branches into you local folder)
 
-*/	
+*/
