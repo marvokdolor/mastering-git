@@ -9,3 +9,12 @@ I just came across this git guide: http://rogerdudler.github.io/git-guide/
 We’ll see how helpful it is.
 
 Over and out.
+
+
+5/11/2017
+
+New Message:
+
+Whew I just went down the un-commit a change path. A little scary and we’re not even dealing with code. 
+This StackOverflow page was super helpful: http://stackoverflow.com/questions/927358/how-to-undo-last-commits-in-git
+Cheerio.
