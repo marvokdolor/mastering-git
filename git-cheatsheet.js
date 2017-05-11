@@ -7,7 +7,7 @@ Create a folder in your desired location
 
 	mkdir my_git_folder
 
-Go to that folder using Chnage Directory command
+Go to that folder using Change Directory command
 
 	cd my-git-folder
 
@@ -44,6 +44,10 @@ If you have many files and want to add all the files that are staged,
 then you can use:
 
 	git add .
+
+If you added AND deleted multiple files you can use:
+
+	git --add	
 
 
 */
