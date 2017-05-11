@@ -116,3 +116,14 @@ To pull:
 
 
 */
+
+/* ===== CLONING ===== 
+
+This may be seldom used but to clone a repo and all its branches use:
+
+	git clone --mirror https://github.com/the-user-name/the-repo-to-be-cloned.git .git
+
+	(notice the .git with a space after the url.git, 
+	this is an important and oft overlooked step)
+
+*/	
