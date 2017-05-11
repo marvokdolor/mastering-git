@@ -100,6 +100,10 @@ To add bring the folder up to date on Github, use push:
 
 	git push origin name-of-your-branch
 
+To see all your branches:
+	
+	git branch	
+
 */
 
 /* ===== PULLING =====
@@ -125,5 +129,17 @@ This may be seldom used but to clone a repo and all its branches use:
 
 	(notice the .git with a space after the url.git, 
 	this is an important and oft overlooked step)
+
+Once it's done, make sure you're in the folder.
+If you ls, you will likely see that it's a hidden .git 
+	
+	git config --bool core.bare false
+	git reset --hard
+
+	(use --bool to modify something between true and false,
+	in this case, it's a bare repository, and it's being made
+	a regular repo, so it can be filled.)
+	(git reset --hard will grab all the repo you cloned including
+	all the branches into you local folder)	
 
 */	
